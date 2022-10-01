@@ -1,0 +1,34 @@
+{
+  "name": "cithi",
+  "version": "1.0.0",
+  "description": "simple chating and file shearing app",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rofson17/cithi.git"
+  },
+  "author": "Rofson Jame Abu Siam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rofson17/cithi/issues"
+  },
+  "homepage": "https://github.com/rofson17/cithi#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.1",
+    "nodemailer": "^6.7.8",
+    "otp-generator": "^4.0.0",
+    "socket.io": "^4.5.2"
+  }
+}
